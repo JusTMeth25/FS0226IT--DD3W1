@@ -113,6 +113,13 @@ textarea {
     width: auto;
 }
 
+#motivodelcontatto {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    background-color: #F5F7FB;
+    width: 60%;
+}
+
 input:focus,
 textarea:focus {
     background-color: #b1e5d8;
