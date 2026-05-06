@@ -28,7 +28,8 @@ tbody tr:nth-child(even) {
     background-color: aqua;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: white;
     background-color: red;
     text-decoration: none;
