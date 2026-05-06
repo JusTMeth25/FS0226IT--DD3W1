@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giorno 1 - Esercizio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lorenzo Melis</h1>
+        <p><strong>Studente Full Stack</strong> - corso Epicode 2026</p>
+        <div class="menu-nav">
+            <!--Menù di navigazione-->
+            <nav>
+                <ul>
+                    <li> <a href="#Chi-sono">Chi sono</a></li>
+                    <li><a href="#Competenze">Competenze</a></li>
+                    <li><a href="#Esperienze">Esperienze</a></li>
+                    <li><a href="#Progetti">Progetti</a></li>
+                    <li><a href="#Contattami">Contattami</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2 id="Chi-sono">Chi sono</h2>
+        <aside>
+            <strong>Test aside</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem adipisci cupiditate animi, quam
+                similique amet, pariatur, ab ipsam iste voluptatem necessitatibus! Dolor, vel. Ut voluptatum tenetur nam
+                eos adipisci?
+            </p>
+        </aside>
+        <!--Blocco immagini-->
+        <div class="images">
+            <figure>
+                <img src="assets/img/fotomia.jpeg" alt="fotopersonale" width="200">
+                <figcaption>Questo nella foto sono io</figcaption>
+            </figure>
+        </div>
+        <p>
+            Mi chiamo Lorenzo Melis e sto imparando a programmare. Studio sviluppo web con <strong>Epicode</strong> e
+            ogni giorno aggiungo qualcosa di nuovo a questa pagina. Mi piace lavorare in gruppo, mi piace sperimentare e
+            creare cose nuove. Inoltre, mi interessano gli sport, videogames e musica. </p>
+        <p>
+            Vivo a Roma. Sono laureato in <em>Ingegneria Informatica.</em> Ho una formazione lavorativa precedente in
+            ambito <em>cybersecurity</em> e consulenza lato governance e adempimenti normativi. Cerco un primo ruolo
+            come sviluppatore frontend.
+        </p>
+        <div class="competenze">
+            <!--Lista di Competenze-->
+            <h2 id="Competenze">Competenze</h2>
+            <p>
+                Le tecnologie che vedo durante le prime settimane di corso.
+            </p>
+            <ul>
+                <li>HTML - struttura delle pagine</li>
+                <li>CSS - stile e impaginazione</li>
+                <li>Git e Github - versionamento del codice</li>
+                <li>Visual Studio Code - editor di lavoro</li>
+            </ul>
+        </div>
+        <div class="lista-esperienze">
+            <section>
+                <!--Lista di Esperienze-->
+                <h2 id="Esperienze">Esperienze</h2>
+                <p>
+                    Di seguito sono riportate le mie esperienze formative e lavorative.
+                </p>
+
+                <table>
+                    <caption>Le mie esperienze</caption>
+                    <thead>
+                        <tr>
+                            <th>Anno</th>
+                            <th>Ruolo</th>
+                            <th>Azienda/Scuola</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2026</td>
+                            <td>Studente Full Stack Epicode</td>
+                            <td>Epicode</td>
+                        </tr>
+                        <tr>
+                            <td>2026</td>
+                            <td>Senior CyberSecurity Consultant</td>
+                            <td>Protiviti</td>
+                        </tr>
+                        <tr>
+                            <td>2019-2025</td>
+                            <td>Cybersecurity Consultant</td>
+                            <td>Engineering - Cybertech</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+        <div class="lista-progetti">
+            <!--Lista di Progetti-->
+            <h2 id="Progetti">Progetti</h2>
+            <p>I lavori fatti durante le prime settimane di corso.</p>
+
+            <h3>Pagina Web Music Streaming</h3>
+            <p>
+                Una pagina con form da compilare, buttons, e invio registrazione.
+            </p>
+            <a href="https://github.com/JusTMeth25/Challenge2" target="_blank">Vedi su Github</a>
+
+            <h3>Youtube Clone</h3>
+            <p>
+                Pagina di YouTube con thumbnails, lavorata con CSS e Flexbox.
+            </p>
+            <a href="https://github.com/JusTMeth25/Youtube-Clone" target="_blank">Vedi su Github</a>
+
+            <h3>Yosemite National Park</h3>
+            <p>
+                Progetto con CSS e HTML per lavorare su diverse pagine tra loro collegate con link.
+            </p>
+            <a href="https://github.com/JusTMeth25/ChallengeCSS" target="_blank">Vedi su Github</a>
+
+            <h3>Card di presentazione</h3>
+            <p>
+                Un biglietto digitale con nome, ruolo e link ai social. Esercizio di sintesi sulla struttura HTML.
+            </p>
+            <a href="javascript:void();">Vedi su Github</a>
+        </div>
+        <div class="contatti">
+            <!--Lista di Contatti-->
+            <h2 id="Contattami">Contattami</h2>
+            <p>
+                Compila il seguente form per metterti in contatto con me. Ti rispondo entro 24 ore.
+            </p>
+            <!--Form di compilazione-->
+            <form action="#" method="POST">
+                <label for="name">Nome</label><br>
+                <input type="text" id="name" name="name" placeholder="Inserisci il tuo nome" required><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Inserisci la tua email" required>
+                <br><br>
+                <label for="motivodelcontatto">Motivo del contatto</label><br>
+                <select id="motivodelcontatto" name="motivodelcontatto" required>
+                    <option value="" selected></option>
+                    <option value="offer">Offerta lavorativa</option>
+                    <option value="collab">Richiesta di collaborazione</option>
+                    <option value="info">Richiesta di informazioni</option>
+                    <option value="other">Altri motivi</option>
+                </select>
+                <br><br>
+                <label for="date">Data preferita per la risposta</label><br>
+                <input type="date" id="date" name="date" required><br><br>
+                <label for="message">Messaggio</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br>
+                <input type="checkbox" id="inputype" name="inputype" value="Accetto" required>
+                <label for="inputype">Accetto di essere ricontattato all'indirizzo indicato</label><br><br>
+                <button type="submit">Invia</button>
+            </form>
+        </div>
+    </main>
+    <br>
+    <aside> Contenuti correlati:
+        <ul>
+            <li><a href="javascript:void(0);">Contenuto 1</a></li>
+            <li><a href="javascript:void(0);">Contenuto 2</a></li>
+            <li><a href="javascript:void(0);">Contenuto 3</a></li>
+        </ul>
+    </aside>
+    <footer>
+        &copy;2026 Lorenzo Melis
+    </footer>
+</body>
+
+</html>
