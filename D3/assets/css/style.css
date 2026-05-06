@@ -1,0 +1,21 @@
+h1 {
+    color: #881B80;
+}
+
+input:focus {
+    border-color: blue;
+    background-color: darkgray;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+}
+
+tbody tr:nth-child(even) {
+    background-color: aqua;
+}
