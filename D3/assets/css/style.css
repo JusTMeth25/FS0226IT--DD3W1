@@ -27,3 +27,15 @@ td {
 tbody tr:nth-child(even) {
     background-color: aqua;
 }
+
+a:link, a:visited {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: greenyellow;
+    text-decoration: underline;
+}
