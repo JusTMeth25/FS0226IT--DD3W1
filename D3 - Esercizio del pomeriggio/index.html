@@ -12,9 +12,8 @@
     <header id="site-header">
         <h1>Lorenzo Melis</h1>
         <p class="tagline"><strong>Studente Full Stack</strong> - corso Epicode 2026</p>
-        <section id="menu-nav">
             <!--Menù di navigazione-->
-            <nav>
+            <nav id="menu-nav">
                 <ul>
                     <li> <a href="#Chi-sono">Chi sono</a></li>
                     <li><a href="#Competenze">Competenze</a></li>
@@ -23,7 +22,6 @@
                     <li><a href="#Contatti">Contatti</a></li>
                 </ul>
             </nav>
-        </section>
     </header>
 
     <main>
@@ -143,7 +141,7 @@
                 <br><br>
                 <label for="motivodelcontatto">Motivo del contatto</label><br>
                 <select id="motivodelcontatto" name="motivodelcontatto" required>
-                    <option value="" selected></option>
+                    <option value="" selected>""</option>
                     <option value="offer">Offerta lavorativa</option>
                     <option value="collab">Richiesta di collaborazione</option>
                     <option value="info">Richiesta di informazioni</option>
