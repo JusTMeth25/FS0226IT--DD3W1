@@ -1,3 +1,24 @@
+#site-header {
+    background-color: hsl(hue, saturation, lightness);
+    background-image: url(../img/pexels-davide-robetti-1119720888-29773799.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+#site-header h1 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    color: #344F86;
+}
+
 table {
     border-collapse: collapse;
 }
@@ -11,4 +32,104 @@ caption {
 
 figcaption {
     font-style: italic;
+}
+
+.tagline {
+    color: rgb(244, 74, 74);
+    font-style: italic;
+}
+
+nav a {
+    color: #899222;
+    font-weight: bold;
+    line-height: 3;
+}
+
+nav a:hover {
+    color: aquamarine;
+    background-color: rgba(red, green, blue, alpha);
+}
+
+nav li {
+    list-style-type: none;
+}
+
+h2,
+h3 {
+    font-size: 150%;
+    color: hsl(hue, saturation, lightness);
+    text-align: left;
+}
+
+img {
+    width: 25%;
+}
+
+#Chi-sono {
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+#Chi-sono p:first-of-type {
+    font-size: large;
+    font-style: italic;
+    color: #7B8393;
+}
+
+.skill-list li:nth-child(odd) {
+    background-color: #F5F7FB;
+}
+
+.skill-list li:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+.skill-list li:first-child {
+    font-weight: bold;
+}
+
+.project:nth-of-type(odd) {
+    background-color: #FAFAFA;
+}
+
+.project:nth-of-type(even) {
+    background-color: #FBF8EF;
+}
+
+label {
+    font-weight: bold;
+    color: #395389;
+}
+
+input,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60%;
+    width: 60%;
+    background-color: #F5F7FB;
+}
+
+
+input:focus,
+textarea:focus {
+    background-color: #b1e5d8;
+    color: black;
+}
+
+button {
+    color: white;
+    background-color: #1F3D7A;
+    font-weight: bold;
+    width: 30%;
+}
+
+button:hover {
+    color: rgb(80, 243, 255);
+}
+
+#site-footer {
+    background-color: #395389;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
 }
