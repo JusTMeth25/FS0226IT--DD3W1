@@ -1,3 +1,11 @@
+/* Regola generale sull'h1 */
+
+
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
     color: #881B80;
 }
