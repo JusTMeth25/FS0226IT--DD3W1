@@ -40,3 +40,10 @@ a:hover {
     background-color: greenyellow;
     text-decoration: underline;
 }
+
+form {
+    background-image: url(../img/fotomia.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
