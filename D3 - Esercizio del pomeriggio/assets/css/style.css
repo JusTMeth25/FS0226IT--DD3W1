@@ -1,22 +1,24 @@
 #site-header {
-    background-color: hsl(hue, saturation, lightness);
+    background-color: hsl(220, 40%, 20%);
     background-image: url(../img/pexels-davide-robetti-1119720888-29773799.jpg);
     background-size: cover;
     background-position: center;
     color: #ffffff;
     text-align: center;
+    line-height: 2.4;
 }
 
 #site-header h1 {
-    font-size: 1.1rem;
+    font-size: 3rem;
     font-weight: bold;
     font-style: italic;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
     line-height: 1.7;
     color: #344F86;
+    background-color: #fafafa;
 }
 
 table {
@@ -71,7 +73,7 @@ img {
 }
 
 #Chi-sono p:first-of-type {
-    font-size: large;
+    font-size: 1.15rem;
     font-style: italic;
     color: #7B8393;
 }
